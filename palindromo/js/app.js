@@ -11,3 +11,8 @@ function checkPalindromo(userWord){
     return newUserWord;    
 }
 
+// nella funzione appena creata gli passo come parametro la variabile del prompt
+// che contiene la parola dell'utente che inserirà
+checkPalindromo(insertWord);
+console.log(checkPalindromo(insertWord));
+
