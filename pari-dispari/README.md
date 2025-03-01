@@ -17,6 +17,5 @@ Domande da  farsi quando si crea una funzione:
 - creare un prompt per l'utente che dovrà segliere tra paro e disparo
 - generare un numero randomico per l'utente da 1 e 5
 - il computer tramite una funzione dovra generare un numero da 1 e 5 sempre random
-- sommare i due numeri randomici
 - tramite funzione sommare i due numeri random
 - stabilire chi ha vinto

@@ -1,5 +1,5 @@
 // promt per la scelta dell'utente
-const choose = prompt('Paro o disparo?');
+const choose = prompt('Pari o dispari?');
 
 // genero i numeri random per l'utente
 const userNumber = Math.ceil(Math.random() * 5);
@@ -22,3 +22,13 @@ function sumNumber(){
 // stampa per debug in console
 sommaRandomNumber = sumNumber();
 console.log('la somma dei numeri random è....' + ' ' + sommaRandomNumber);
+
+// condizione per la scelta dell'utente se fa la giusta scelta tra pari o dispari
+const risultato = (sommaRandomNumber % 2 === 0) ? 'pari' : 'dispari';
+if(risultato === choose){
+    console.log('complimenti user hai vinto');
+}else{
+    console.log('Its not a good choise')
+}
+
+
