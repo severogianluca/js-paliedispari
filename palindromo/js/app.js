@@ -16,3 +16,11 @@ function checkPalindromo(userWord){
 checkPalindromo(insertWord);
 console.log(checkPalindromo(insertWord));
 
+// creo una condizione dove inserisco la parola dell'utente e lo metto a confronto
+// con la funzione che lo leggerà al contrario 
+// se le parole sono identiche sarà palindromo altrimenti no
+if(insertWord === checkPalindromo(insertWord)){
+    console.log('la parola è palindroma');
+}else{
+    console.log('la parola non è palindroma');
+}
