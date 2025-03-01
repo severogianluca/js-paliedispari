@@ -1,8 +1,8 @@
 // promt per la scelta dell'utente
 const choose = prompt('Pari o dispari?');
 
-condizione messa in modo che l'utente durante la scelta puo inserire solo "pari" o "dispari"
-altrimenti va in errore
+// condizione messa in modo che l'utente durante la scelta puo inserire solo "pari" o "dispari"
+// altrimenti va in errore
 if(choose !== 'pari' && choose !== 'dispari'){
     console.log('ERRORE! per giocare puoi digitare solo "pari" o "dispari"');
 }else{
