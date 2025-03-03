@@ -3,6 +3,7 @@ let insertWord = prompt ('Inserisci una parola!');
 
 // creo una funzione che prende come parametro la parola dell'user
 // col for la ciclerò al contrario e la farò ritornare come una nuova parola
+// utilizzo toLowerCase per trasformare le parole dell'utente anche quelle maiuscole in minuscolo
 function checkPalindromo(userWord){
     userWord = userWord.toLowerCase;
     let newUserWord='';
